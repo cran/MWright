@@ -6,7 +6,7 @@
 #'
 #' @param alp point estimate for shape parameter alpha.
 #' @param sc point estimate for scale parameter s.
-#' @param upper non-negative upper quantile
+#' @param upper  upper quantile
 #'
 #'
 #' @return numeric
@@ -20,7 +20,7 @@
 #' Cahoy (2012). \emph{Moment estimators for the two-parameter M-Wright distribution.} Computational Statistics, 27(3), 487-497.
 #' \url{https://doi.org/10.1007/s00180-011-0269-x}
 #'
-#' Cahoy (2012). \emph{Estimation and simulation for the M-Wright function.}  Computational Statistics, 27(3), 487-497.
+#' Cahoy (2012). \emph{Estimation and simulation for the M-Wright function.}  Communications in Statistics-Theory and Methods, 41(8), 1466-1477.
 #' \url{https://doi.org/10.1080/03610926.2010.543299}
 #'
 #' Cahoy (2011). \emph{On the parameterization of the M-Wright function.} Far East Journal of Theoretical Statistics, 34(2), 155-164.
@@ -44,12 +44,11 @@
 #' @export
 #'
 pmwright2 <- function(alp,sc, upper){
-
-  tol<-0.00001
-  if ( abs(upper)< tol ){
-    upper<-sign(upper)*tol
-  } else {
-    upper
+  tol<- 0.00001
+  if ( upper==0 ){
+    upper<- tol
+  } else if ( ( (abs(upper)< tol) &  (abs(upper)>0 ) )) {
+    upper <- sign(upper)*tol
   }
   b<-alp
   s<-sc

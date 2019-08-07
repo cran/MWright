@@ -15,13 +15,13 @@
 #'
 #' Cahoy (2011)
 #'
-#' Mainardi, Mura, and Pagnini (2010) <doi: 10.1155/2010/104505>
+#' Mainardi, Mura, and Pagnini (2010) <doi:10.1155/2010/104505>
 #'
 #'
 #'
 #' @docType package
 #'
-#' @author Dexter Cahoy \email{dexter.cahoy@gmail.com}
+#' @author Dexter Cahoy \email{cahoyd@uhd.edu}
 #'
 #' @name MWright
 NULL

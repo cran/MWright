@@ -21,8 +21,8 @@ Cahoy (2012) <doi:10.1080/03610926.2010.543299>
 
 Cahoy (2011)
 
-Mainardi, Mura, and Pagnini (2010) <doi: 10.1155/2010/104505>
+Mainardi, Mura, and Pagnini (2010) <doi:10.1155/2010/104505>
 }
 \author{
-Dexter Cahoy \email{dexter.cahoy@gmail.com}
+Dexter Cahoy \email{cahoyd@uhd.edu}
 }

@@ -31,7 +31,7 @@ Cahoy and Minkabo (2017). \emph{Inference for three-parameter M-Wright distribut
 Cahoy (2012). \emph{Moment estimators for the two-parameter M-Wright distribution.} Computational Statistics, 27(3), 487-497.
 \url{https://doi.org/10.1007/s00180-011-0269-x}
 
-Cahoy (2012). \emph{Estimation and simulation for the M-Wright function.}  Computational Statistics, 27(3), 487-497.
+Cahoy (2012). \emph{Estimation and simulation for the M-Wright function.}  Communications in Statistics-Theory and Methods, 41(8), 1466-1477.
 \url{https://doi.org/10.1080/03610926.2010.543299}
 
 Cahoy (2011). \emph{On the parameterization of the M-Wright function.} Far East Journal of Theoretical Statistics, 34(2), 155-164.
